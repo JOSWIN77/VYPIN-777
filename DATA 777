@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Vypin</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background-color: #f0f8ff;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(to right, #0066cc, #003366);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    h1, h2 {
+      margin: 0 0 10px;
+    }
+
+    .container {
+      padding: 30px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section {
+      margin-bottom: 40px;
+      background-color: #ffffff;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    a.button, button {
+      display: inline-block;
+      background-color: #0066cc;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      margin-top: 10px;
+      transition: background-color 0.3s;
+      border: none;
+      cursor: pointer;
+    }
+
+    a.button:hover, button:hover {
+      background-color: #004d99;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #003366;
+      color: white;
+    }
+
+    @media (max-width: 600px) {
+      header, .container, footer {
+        padding: 20px 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Vypin</h1>
+    <p>Explore the history, beauty, and industry of this fascinating coastal town in Kerala.</p>
+  </header>
+
+  <div class="container">
+
+    <section>
+      <h2>About Vypin</h2>
+      <p>
+        At the northern tip of Vypin lies Munambam Fishing Harbour, the largest in Kochi. Puthuvype has become a key
+        industrial hub with major facilities like the LNG Terminal, IOC Bottling Plant, and the upcoming Oceanarium.
+      </p>
+      <p>
+        One of Kerala’s ten lighthouses stands at Puthuvype Beach—the tallest in the state—adding charm to its coastline.
+      </p>
+      <a class="button" href="https://www.bing.com/search?q=ABOUT+VYPIN" target="_blank">Know More</a>
+    </section>
+
+    <section>
+      <h2>History of Vypin</h2>
+      <p><strong>Early Days:</strong> In the 16th century, the Portuguese built a fort on Vypin with the permission of the Raja of Kochi. 
+        This marked the start of European colonialism in the region.</p>
+      <p>
+        With its serene beaches like Cherai and easy access to Kochi city, Vypin slowly became a tourist hotspot for those seeking peace.
+      </p>
+      <p><strong>Modern Growth:</strong> Improved ferry services and the Goshree bridges helped boost tourism. Sustainable development 
+        supports eco-tourism, preserving local ecosystems while attracting visitors.
+      </p>
+      <a class="button" href="https://travelsetu.com/guide/vypin-island-tourism/vypin-island-tourism-history" target="_blank">Know More</a>
+    </section>
+
+    <section>
+      <h2>Pictures & Photos</h2>
+      <p>Discover the stunning views and cultural highlights of Vypin Island through a curated image gallery.</p>
+      <a class="button" href="https://www.bing.com/search?q=PICTURES+OF+VYPIN" target="_blank">Click Here</a>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>© 2025 Vypin Tourism Board. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
